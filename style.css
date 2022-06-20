@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+body {
+    background-image: url(./img/pexels-suzy-hazelwood-1822568.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.form {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text {
+    margin-top: 5rem;
+    width: 20rem;
+    padding: 0 0.5rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+    box-shadow: 1px 1px 5px red;
+    resize: none;
+
+}
+
+.button {
+    width: 7rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px red;
+
+}
+.notification {
+    margin-top: 5rem;
+    color: black;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px
+  }
